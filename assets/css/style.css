@@ -1,0 +1,14 @@
+body{
+    color: #777777;
+}
+header{
+    height : 75px;
+    background-color: #ffffff;
+}
+.name{
+    height: 75px;
+    width: 240px ;
+    background-color: #4aaaa5;
+    color: white;
+
+}
