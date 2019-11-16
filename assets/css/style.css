@@ -14,6 +14,11 @@ header{
     
 
 }
+.links{
+    display: inline-block;
+    width: 270px;
+    margin-left: 450px;
+}
 a{
     position: relative;
     color: #777777;
@@ -34,9 +39,10 @@ h1{
     color: white;
     font-size: 35px;
     text-align: center;
-    margin-left: %;
+    margin-left: 15%;
     padding: 15px;
-    margin-right: 0
+    margin-right: 0;
+    display: inline-block;
 }
 main{
     height: auto;
