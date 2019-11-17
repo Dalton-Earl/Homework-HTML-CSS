@@ -22,23 +22,30 @@
         </div>           
 </header>
         <main>
-        <h1>Contact</h1>
-        <div class="styleline"></div>
-        <form>
-                Name<br>
-                <input type="text" name="name"><br>
-                Email<br>
-                <input type="text" name="email"><br>
-                Message<br>
-                <input type="text" name="message"><br>
-                
+                <h1>Contact</h1>
+                <div class="styleline"></div>
+                <div class="container">
+                        <form action="action_page.php">
+                      
+                          <label for="fname">Your Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      
+                          <label for="lname">Email</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Pease enter your email..">
 
-        </form>
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                          <input type="submit" value="Submit">
+                      
+                        </form>
+                      </div>
 
 
         </main>
         <footer>
                 <div class="bottomstyleln"></div>
+                <h6>Copyright</h6>
         </footer>
     
 </body>

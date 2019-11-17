@@ -26,12 +26,13 @@ a{
     text-decoration: none;
     margin: 7px; 
 }
-
+a:hover{
+    background-color: #d6d6d6;
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    padding: 12px;
+    padding: 12px; 
 }
 .name{
     height: 45px;
@@ -58,8 +59,12 @@ main{
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto; 
+    overflow: hidden;
+    padding: 15px;
     
-    
+}
+p{
+    margin: 15px;
 }
 .styleline{
     background-color: #cccccc;
@@ -72,14 +77,53 @@ main{
 #headshot{
     height: 200PX;
     float: left;
+    margin-right: 15px;
 }
 .preview-img{
-    height: 200px;
-    width: 33%;
+    height: 90%;
+    width: 90%;
 }
 .preview{
+    width: 33%;
+    margin-right: 0;
     float: left;
+    padding: 5px;
+    
 }
+.img-text{
+    z-index: 2;
+    position: relative;
+    bottom: 40px;
+    background-color: #4aaaa5;
+    width: 90%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #367c79;
+  }
 .bottomstyleln{
     height: 10%;
     background-color: #4aaaa5;
